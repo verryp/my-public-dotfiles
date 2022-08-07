@@ -1,0 +1,27 @@
+# General
+*.o
+\#*#
+*#
+.#*
+.*~
+*~
+.DS_Store
+*.sw[po]
+tags
+TAGS
+.svn
+*.dSYM
+*.log
+*.dvi
+*.aux
+*.elc
+.zshrc.local
+.Trash/
+
+
+# Fish
+.config/fish/local_config.fish
+.config/fish/completions/
+.config/fish/functions/_*
+.config/fish/functions/tide/
+.config/iterm2/
