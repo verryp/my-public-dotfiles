@@ -22,9 +22,9 @@ set -g theme_hostname always
 #eval (starship init fish)
 
 # GO
-set -gx PATH $HOME/code/go-workspace/bin $PATH # adjust your go dir path
+set -gx PATH $HOME/Dev/go/bin $PATH # adjust your go dir path
 set -gx PATH "$PATH:/Applications/Goland.app/Contents/Resouces/app/bin" $PATH
-set -g GOPATH $HOME/code/go-workspace
+set -g GOPATH $HOME/Dev/go
 set -g GO_WORKSPACE $GOPATH/src
 
 
